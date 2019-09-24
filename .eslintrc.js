@@ -31,7 +31,7 @@ module.exports = {
       "warn",
       { extensions : [".jsx", ".js"]}
     ],
-    "no-unused-vars": ["error", { argsIfnorePattern: "^ " }],
+    "no-unused-vars": ["error", { argsIgnorePattern: "^ " }],
     "react/jsx-one-expression-per-line": "off",
     "import/prefer-default-export": "off",
     "global-require": "off",
